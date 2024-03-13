@@ -1,5 +1,8 @@
 :root {
   --nav-text: 'Roboto-Regular';
+  --title-font: 'HelveticaNeueLTProLt';
+  --subTitle-font: 'Merriweather-LightItalic';
+  --main-font: 'Montserrat-Light';
   --main-color: black;
   --second-color: white;
 }
