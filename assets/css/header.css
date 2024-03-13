@@ -38,4 +38,10 @@
   height: 57px;
   border: 1px solid var(--main-color);
   margin-top: 43px;
+  transition: all 300ms ease;
+}
+
+.headerBTN:hover {
+  color: var(--second-color);
+  background: var(--main-color);
 }
