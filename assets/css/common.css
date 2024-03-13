@@ -4,17 +4,29 @@
   --subTitle-font: 'Merriweather-LightItalic';
   --main-font: 'Montserrat-Light';
   --main-color: black;
+  --bg-color: #1d1d1d;
   --second-color: white;
 }
 
 body {
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 94px;
+  display: grid;
+  grid-template-columns: 94px 1fr 94px;
+}
+
+header{
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+
+main {
+  background: var(--bg-color);
+  grid-row: 2/3;
+  grid-column: 1/4;
 }
 
 @media screen and (max-width: 820px) {
   body {
-    padding: 0 10px;
+      grid-template-columns: 10px 1fr 10px;
+
   }
 }
