@@ -1,0 +1,8 @@
+.layerContainer {
+  grid-column: 1/4;
+  background: var(--bg-color);
+}
+
+.layerContainer .layer {
+  width: 100%;
+}
