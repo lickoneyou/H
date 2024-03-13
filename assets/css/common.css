@@ -32,9 +32,9 @@ main {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1750px) {
   body {
-    grid-template-columns: 94px 1200px 94px;
+    grid-template-columns: 94px 1600px 94px;
     justify-content: center;
   }
 }
