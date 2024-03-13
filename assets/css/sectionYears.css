@@ -3,6 +3,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 128px 93px 134px 93px;
+  background: var(--bg-color);
 }
 
 .years > div {
