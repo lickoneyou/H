@@ -31,3 +31,10 @@ main {
     grid-template-columns: 10px 1fr 10px;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  body {
+    grid-template-columns: 94px 1200px 94px;
+    justify-content: center;
+  }
+}
