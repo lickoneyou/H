@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 128px 93px 134px 93px;
+  padding: 128px 93px 0px 93px;
   background: var(--bg-color);
 }
 
