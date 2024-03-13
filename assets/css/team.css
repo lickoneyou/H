@@ -62,10 +62,18 @@
   margin-bottom: 22px;
 }
 
-.sotialMediaWrapper {
+.socialMediaWrapper {
   width: 33%;
   display: flex;
   justify-content: space-around;
+}
+
+.socialMediaWrapper > img{
+  cursor: pointer;
+}
+
+.socialMediaWrapper > img:hover{
+  transform: scale(1.3);
 }
 
 @media screen and (max-width: 800px) {
