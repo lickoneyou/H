@@ -26,6 +26,13 @@ main {
   margin-top: 206px;
 }
 
+footer {
+  grid-row: 3/3;
+  grid-column: 1/4;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 820px) {
   body {
     grid-template-columns: 10px 1fr 10px;
